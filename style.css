@@ -1,0 +1,215 @@
+/* RESET */ 
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+html {
+    width: 100%; 
+}
+
+
+body {
+   
+    background-color:  #e6e6e6;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+
+   @font-face {
+  font-family: "Bebas Neue";
+src: url("font/bebasneue.woff");
+src: url("Font/bebasneue.woff2");
+src: url("Font/bebasneue.otf");
+}
+
+/* PAGE ACCUEIL */
+.application {
+    
+    width: 320px; 
+    height: 568px; ; 
+    margin: 0 auto; 
+    position: fixed; 
+     
+  
+}
+
+#lemagasin {
+font-family: 'Bebas Neue',   sans-serif;
+font-size: 70px;
+line-height: 2px; 
+margin-left: 20px;
+width: auto; 
+}
+
+#propose {
+font-size: 30px;
+margin-left: 170px;
+
+}
+
+#dapres {
+font-size: 20px;
+margin-left: 50px;
+line-height: 1px; 
+}
+
+#richard{
+font-family: 'Bebas Neue', sans-serif;
+font-size: 45px;
+line-height: 1px; 
+margin-left: 25px;
+width: auto;
+margin-top: 400px;
+
+}
+
+#imagecentre{
+   position: relative; 
+    height: auto;
+    
+}
+
+#charbon {
+    position: absolute; 
+    left: 50%;
+    margin-left: -30%;
+    margin-top: 50px; 
+    z-index:1;
+}
+
+#coallinetitre {
+    
+    position:absolute;
+    font-family: 'Bebas Neue',   sans-serif;
+    font-size: 40px;
+    color: white;
+    top:100px; 
+    width:200px; 
+    z-index:2;
+    left: 50%; 
+    margin-left: -30%; 
+    text-align: center;
+    line-height: 42px;  
+   
+}
+
+
+/* FIN PAGE ACCUEIL */
+
+/* PAGE REGLES */
+
+#charbonregle {
+    margin-left: 50px; 
+    margin-top: 25px;
+    width: 60%; 
+      
+}
+
+#bienvenue {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    line-height: 1px;
+}
+#regle {
+    text-align: justify; 
+    font-size: 14px;
+    width: 300px; 
+}
+
+#conteneurtrait {
+    margin: 0; 
+    width: 100px; 
+    height: 3px; 
+    position:relative;
+}
+
+.trait{
+  border-bottom:3px ridge ;
+  top:  10px;
+  color: black;
+  position: absolute;
+  -webkit-animation: anim 2s 500ms  normal ease-out forwards;
+  animation: anim 2s 500ms  normal ease-out forwards;
+}
+
+.trait2{
+  border-bottom:3px ridge ;
+  top:  5px;
+  color: black;
+    right: -220px; 
+  position: absolute;
+  -webkit-animation: anim 2s 500ms  normal ease-out forwards;
+  animation: anim 2s 500ms  normal ease-out forwards;
+}
+ 
+ 
+@-webkit-keyframes anim{
+    0% {width: 0px;}
+    100% {width: 100px;}
+}
+ 
+@keyframes anim{
+    0% {width: 0px;}
+    100% {width: 100px;}
+}
+
+
+/* FIN PAGE REGLES */
+
+/* PAGE INDICATION : Avancer sur la ligne  */
+
+#avancez {
+    font-family: 'Oswald',   sans-serif; 
+    font-size: 60px; 
+    text-align: center;
+    width: 250px; 
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    position: fixed; 
+    font-family: 'Bebas Neue'; 
+    margin-left: 20px; 
+   
+    
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+    height: 50%; 
+  
+    
+  }
+
+  to {
+    margin-top: 0%;
+    height: 100%; 
+     }
+}
+
+
+
+
+/* FIN PAGE INDICATION : Avancer sur la ligne  */
