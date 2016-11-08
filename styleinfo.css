@@ -1,0 +1,156 @@
+html {
+    width: 100%; 
+}
+
+
+body {
+   
+    background-color:  #e6e6e6;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+
+   @font-face {
+  font-family: "Bebas Neue";
+src: url("font/bebasneue.woff");
+src: url("Font/bebasneue.woff2");
+src: url("Font/bebasneue.otf");
+}
+
+/* PAGE ACCUEIL */
+.application {
+    
+    width: 320px; 
+    height: 568px; ; 
+    margin: 0 auto; 
+     
+  
+}
+
+/* LIGNES */ 
+
+svg { 
+    position: absolute; 
+    z-index: 100; 
+
+    width: 320px; 
+    height: 568px; ; 
+    margin: 0 auto;
+   
+}
+
+#line12{
+ 
+margin-top: -3%;
+
+}
+
+#line13{
+margin-left: 40%;
+margin-top: 90%;
+    
+}
+
+
+#line14{
+margin-left: -5%;
+margin-top: 10%;
+    
+}
+/* Textes*/ 
+
+#coalline {
+font-family: 'Bebas Neue',   sans-serif;
+font-size: 50px;
+margin-left: 20px;
+width: auto; 
+margin-top: -40px; 
+     -webkit-animation: fadeUpIn 3s; /* Safari and Chrome */
+    
+
+}
+
+#coal { 
+padding-top: 8px;
+margin-left: 135px;
+}
+
+#line {
+margin-left: 139px;
+margin-top: -60px;
+      -webkit-animation: fadeUpIn 5s; /* Safari and Chrome */
+
+}
+
+#date {
+font-size: 40px;
+margin-left: 70%;
+line-height: 1px;
+font-family: 'Bebas Neue', sans-serif;
+width: auto;
+margin-top: 90%;
+      -webkit-animation: fadeUpIn 8s; /* Safari and Chrome */
+    
+
+}
+
+#richard{
+font-family: 'Bebas Neue', sans-serif;
+font-size: 50px;
+line-height: 1px;
+margin-left: 60px;
+width: auto;
+margin-top: 22%;
+      -webkit-animation: fadeUpIn 3s; /* Safari and Chrome */
+
+}
+
+#long{
+font-family: 'Bebas Neue', sans-serif;
+font-size: 55px;
+line-height: 1px;
+margin-left: 72px;
+width: auto;
+margin-top: 33px;
+      -webkit-animation: fadeUpIn 3s; /* Safari and Chrome */
+
+}
+
+
+#imagecentre{
+   position: relative; 
+    height: auto;
+ 
+}
+
+
+
+#charbon {
+    position: absolute; 
+    left: 50%;
+    margin-left: -35%;
+    margin-top: -8%; 
+    z-index:1;
+}
+
+#coallinetitre {
+    
+    position:absolute;
+    font-family: 'Bebas Neue',   sans-serif;
+    font-size: 40px;
+    color: white;
+    top:50px; 
+    width:200px; 
+    z-index:2;
+    left: 50%; 
+    margin-left: -30%; 
+    text-align: center;
+    line-height: 42px; 
+    
+  -webkit-animation: fadeUpIn 10s; /* Safari and Chrome */
+   
+}
+
+
