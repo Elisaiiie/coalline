@@ -164,6 +164,42 @@ margin-top: 33px;
     margin: 10 5 10 5;
     font-size: 14px; 
 }
+#conteneurtrait {
+    margin: 0; 
+    width: 100px; 
+    height: 3px; 
+    position:relative;
+}
+
+.trait{
+  border-bottom:3px ridge ;
+  top:  10px;
+  color: black;
+  position: absolute;
+  -webkit-animation: anim 2s 500ms  normal ease-out forwards;
+  animation: anim 2s 500ms  normal ease-out forwards;
+}
+
+.trait2{
+  border-bottom:3px ridge ;
+  top:  5px;
+  color: black;
+    right: -220px; 
+  position: absolute;
+  -webkit-animation: anim 2s 500ms  normal ease-out forwards;
+  animation: anim 2s 500ms  normal ease-out forwards;
+}
+ 
+ 
+@-webkit-keyframes anim{
+    0% {width: 0px;}
+    100% {width: 100px;}
+}
+ 
+@keyframes anim{
+    0% {width: 0px;}
+    100% {width: 100px;}
+}
 
 /* FIN PAGE REGLES */
 
