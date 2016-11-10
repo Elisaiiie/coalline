@@ -14,7 +14,7 @@ body {
 
 
    @font-face {
-  font-family: "Bebas Neue";
+  font-family: "Bebas";
 src: url("font/bebasneue.woff");
 src: url("Font/bebasneue.woff2");
 src: url("Font/bebasneue.otf");
@@ -60,7 +60,7 @@ margin-top: 80px;
 /* Textes*/ 
 
 #lemagasin {
-font-family: 'Bebas Neue',   sans-serif;
+font-family: 'Bebas',   sans-serif;
 font-size: 50px;
 margin-left: 20px;
 width: auto; 
@@ -89,7 +89,7 @@ margin-left: 75px;
 font-size: 20px;
 margin-left: 55px;
 line-height: 1px;
-font-family: 'Bebas Neue', sans-serif;
+font-family: 'Bebas', sans-serif;
 width: auto;
 margin-top: 388px;
       -webkit-animation: fadeUpIn 8s; /* Safari and Chrome */
@@ -98,7 +98,7 @@ margin-top: 388px;
 }
 
 #long{
-font-family: 'Bebas Neue', sans-serif;
+font-family: 'Bebas', sans-serif;
 font-size: 50px;
 line-height: 1px;
 margin-left: 40px;
@@ -129,7 +129,7 @@ margin-top: 33px;
 #coallinetitre {
     
     position:absolute;
-    font-family: 'Bebas Neue',   sans-serif;
+    font-family: 'Bebas',   sans-serif;
     font-size: 40px;
     color: white;
     top:50px; 
@@ -156,7 +156,7 @@ margin-top: 33px;
 }
 
 #bienvenue {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Bebas', sans-serif;
     font-size: 40px;
     margin-left: 10;
     line-height: 14px; 
