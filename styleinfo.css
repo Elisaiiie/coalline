@@ -1,5 +1,6 @@
 html {
-    width: 100%; 
+    width: 320px; 
+    height: 568px; 
 }
 
 
@@ -22,8 +23,8 @@ src: url("Font/bebasneue.otf");
 /* PAGE ACCUEIL */
 .application {
     
-    width: 320px; 
-    height: 568px; ; 
+    width: 100%; 
+    height: 100%; 
     margin: 0 auto; 
      
   
