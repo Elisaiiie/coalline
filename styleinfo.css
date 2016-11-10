@@ -14,11 +14,11 @@ body {
 
 
    @font-face {
-  font-family: "Bebas Neue";
+  font-family: "Bebas";
 src: url("font/bebasneue.woff");
-src: url("Font/bebasneue.woff2");
-src: url("Font/bebasneue.otf");
-src: url("Font/bebasneue.ttf");
+src: url("font/bebasneue.woff2");
+src: url("font/bebasneue.otf");
+src: url("font/bebasneue.ttf");
 }
 
 /* PAGE ACCUEIL */
@@ -64,7 +64,7 @@ margin-top: 10%;
 /* Textes*/ 
 
 #coalline {
-font-family: 'Bebas Neue',   sans-serif;
+font-family: 'Bebas',   sans-serif;
 font-size: 50px;
 margin-left: 20px;
 width: auto; 
@@ -90,7 +90,7 @@ margin-top: -60px;
 font-size: 40px;
 margin-left: 70%;
 line-height: 1px;
-font-family: 'Bebas Neue', sans-serif;
+font-family: 'Bebas', sans-serif;
 width: auto;
 margin-top: 90%;
       -webkit-animation: fadeUpIn 8s; /* Safari and Chrome */
@@ -99,7 +99,7 @@ margin-top: 90%;
 }
 
 #richard{
-font-family: 'Bebas Neue', sans-serif;
+font-family: 'Bebas', sans-serif;
 font-size: 50px;
 line-height: 1px;
 margin-left: 60px;
@@ -110,7 +110,7 @@ margin-top: 22%;
 }
 
 #long{
-font-family: 'Bebas Neue', sans-serif;
+font-family: 'Bebas', sans-serif;
 font-size: 55px;
 line-height: 1px;
 margin-left: 72px;
@@ -140,7 +140,7 @@ margin-top: 33px;
 #coallinetitre {
     
     position:absolute;
-    font-family: 'Bebas Neue',   sans-serif;
+    font-family: 'Bebas',   sans-serif;
     font-size: 40px;
     color: white;
     top:50px; 

@@ -16,9 +16,9 @@ body {
    @font-face {
   font-family: "Bebas";
 src: url("font/bebasneue.woff");
-src: url("Font/bebasneue.woff2");
-src: url("Font/bebasneue.otf");
-src: url("Font/bebasneue.ttf");
+src: url("font/bebasneue.woff2");
+src: url("font/bebasneue.otf");
+src: url("font/bebasneue.ttf");
 }
 
 /* PAGE ACCUEIL */
@@ -209,7 +209,7 @@ margin-top: 33px;
 /* PAGE INDICATION : Avancer sur la ligne  */
 
 #avancez {
-    font-family: 'Oswald',   sans-serif; 
+    font-family: 'Bebas',   sans-serif; 
     font-size: 60px; 
     text-align: center;
     width: 250px; 
@@ -217,8 +217,7 @@ margin-top: 33px;
     animation-name: slidein;
     animation-iteration-count: infinite;
     position: fixed; 
-    font-family: 'Bebas Neue'; 
-    margin-left: 20px; 
+     margin-left: 20px; 
    
     
 }
@@ -262,7 +261,7 @@ margin-top: 33px;
 }
 
 #partagez {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Bebas', sans-serif;
     font-size: 30px;
     text-align: center;
     line-height: 10px;
