@@ -1,73 +1,97 @@
 <!DOCTYPE html>
 <html>
-    
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Coal Line Expérience</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=500, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-        
-        <!-- Typographies -->
-        
-        <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto|Oswald:700" rel="stylesheet">
-    </head>
-    
-    
-    
-    <body>
-        
-  
-    
-    
-    <div class="application">
-        
-        
-                  <svg version="1.1" id="line1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 320 300" xml:space="preserve">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Coal Line Expérience</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=500, initial-scale=1">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- Typographies -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto|Oswald:700" rel="stylesheet">
+
+    <script src="vendor/jquery/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery/jquery-migrate-3.0.0.min.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="application">
+
+    <svg version="1.1" id="line1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 320 300" xml:space="preserve">
 <g>
 	<path style="fill:none;stroke:#000000;stroke-miterlimit:10;" d="M242.076,235.908L177.998,84.5L177.998,84.5L82,84.5" class="VeYLydqt_0"></path>
 </g>
             
-<style>.VeYLydqt_0{stroke-dasharray:261 263;stroke-dashoffset:262;animation:VeYLydqt_draw 1666ms linear 0ms forwards;}@keyframes VeYLydqt_draw{100%{stroke-dashoffset:0;}}@keyframes VeYLydqt_fade{0%{stroke-opacity:1;}94.02985074626866%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style>
+<style>.VeYLydqt_0 {
+    stroke-dasharray: 261 263;
+    stroke-dashoffset: 262;
+    animation: VeYLydqt_draw 1666ms linear 0ms forwards;
+}
+
+@keyframes VeYLydqt_draw {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes VeYLydqt_fade {
+    0% {
+        stroke-opacity: 1;
+    }
+    94.02985074626866% {
+        stroke-opacity: 1;
+    }
+    100% {
+        stroke-opacity: 0;
+    }
+}</style>
        </svg>
-       
-       
-       
-        <svg version="1.1" id="line2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 320 568" xml:space="preserve">
+    <svg version="1.1" id="line2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 320 568" xml:space="preserve">
 <g>
 	<path style="fill:none;stroke:#000000;stroke-miterlimit:10;" d="M251,407.5L84,407.5L84,407.5L143.323,263.677" class="LLTcjvfh_0"></path>
 </g>
-<style>.LLTcjvfh_0{stroke-dasharray:323 325;stroke-dashoffset:324;animation:LLTcjvfh_draw 1510ms linear 0ms forwards;}@keyframes LLTcjvfh_draw{100%{stroke-dashoffset:0;}}@keyframes LLTcjvfh_fade{0%{stroke-opacity:1;}93.18104330037504%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>
+<style>.LLTcjvfh_0 {
+    stroke-dasharray: 323 325;
+    stroke-dashoffset: 324;
+    animation: LLTcjvfh_draw 1510ms linear 0ms forwards;
+}
 
-    
- 
-        <div id="lemagasin">     
-    <p id="lemag">LE MAGASIN</p>
-    <p id="propose"> PROPOSE</p>
-            </div>
-       <div id="imagecentre">
-    <img id="charbon" src="image/charbon.png" >
-      <p id="coallinetitre"> COAL LINE EXPERIENCE</p> 
-    
-        </div> 
-        
-    <div >
-    <p id="dapres"> D'APRES L'OEUVRE DE </p>    
-    <p id="long"> RICHARD LONG </p>  
+@keyframes LLTcjvfh_draw {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes LLTcjvfh_fade {
+    0% {
+        stroke-opacity: 1;
+    }
+    93.18104330037504% {
+        stroke-opacity: 1;
+    }
+    100% {
+        stroke-opacity: 0;
+    }
+}</style></svg>
+
+    <div id="lemagasin">
+        <p id="lemag">LE MAGASIN</p>
+        <p id="propose"> PROPOSE</p>
     </div>
-        </div>
-   
-        <script>setTimeout(function(){ 
-                
-	document.location.href="regles.html";}
-	, 3000);
-            
-            
-        </script>
+    <div id="imagecentre">
+        <img id="charbon" src="image/charbon.png">
+        <p id="coallinetitre"> COAL LINE EXPERIENCE</p>
+    </div>
+    <div>
+        <p id="dapres"> D'APRES L'OEUVRE DE </p>
+        <p id="long"> RICHARD LONG </p>
+    </div>
 
-        
-    
-    </body>
-    
+</div>
+
+<script>
+    //setTimeout(function () {document.location.href = "regles.html";}, 3000);
+</script>
+
+</body>
 </html>
