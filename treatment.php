@@ -9,7 +9,7 @@ if ($_GET['action'] == 'getCurrentSensor') {
 function connectDB()
 {
 
-    $dbHost = 'localhost';
+    $dbHost = '192.168.0.10';
     $dbUser = 'user';
     $dbPass = 'coalline';
     $dbName = 'coalline';
