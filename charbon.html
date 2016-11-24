@@ -20,11 +20,11 @@
 <div class="application">
     
     
-<video width="320" height="320" controls="controls">
+<video width="320" height="568" frameborder="0" allowfullscreen autoplay muted>
     
   <source src="image/animation.mp4" type="video/mp4" />
   <source src="image/animation.webm" type="video/webm" />
-  <source src="image/animation.ogg" type="video/ogg" />
+ 
   
 </video>
 
@@ -32,6 +32,9 @@
 
 <script>
      // setTimeout(function () {document.location.href = "indication2.html";}, 50000);
+    
+    $('video').get (0).play(); 
+    
 </script>
 
 </body>
