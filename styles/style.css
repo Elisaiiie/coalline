@@ -104,19 +104,19 @@ svg {
 #coallinetitre {
 
     position: absolute;
-    font-family: 'Bebas', sans-serif;
-    font-size: 50px;
-    color: white;
-    top: 55px;
-    width: 200px;
-    z-index: 2;
-    left: 50%;
-    margin-left: -30%;
-    text-align: center;
-    line-height: 42px;
-    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
-
-    -webkit-animation: fadeUpIn 10s; /* Safari and Chrome */
+font-family: 'Bebas', sans-serif;
+font-size: 65px;
+color: white;
+top: 36px;
+width: 200px;
+z-index: 2;
+left: 50%;
+margin-left: -35%;
+text-align: center;
+line-height: 42px;
+text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+-webkit-animation: fadeUpIn 10s;
+line-height: 90%;
 
 }
 
