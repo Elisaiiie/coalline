@@ -48,8 +48,8 @@ Temporary Items
 .idea/
 
 # Medias
-.mp4
-.webm
-.gif
-.jpg
-.png
+*.mp4
+*.webm
+*.gif
+*.jpg
+*.png
