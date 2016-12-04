@@ -6,37 +6,26 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=500, initial-scale=1">
     <link rel="stylesheet" href="styles/elementstyle.css">
-
 </head>
 <body>
-    
-   
-    
-    
-    
-    
-    
 <div class="application">
-    
-    
-<video muted="true" playsinline width="320" height="568" frameborder="0" allowfullscreen preload="auto" autoplay="true">
-    
-  <source src="image/projection.mp4" type="video/mp4" />
-  <source src="image/projection.webm" type="video/webm" />
- 
-  
-</video>
-    
-    <button onclick="$('video').get(0).play()"> </button>
-</div> 
- 
+
+    <video muted="true" playsinline width="320" height="568" frameborder="0" allowfullscreen preload="auto" autoplay="true">
+
+        <source src="image/projection.mp4" type="video/mp4"/>
+        <source src="image/projection.webm" type="video/webm"/>
+
+    </video>
+
+    <button style="display:none" onclick="$('video').get(0).play()"></button>
+</div>
+
 <script>
-     // setTimeout(function () {document.location.href = "indication2.html";}, 50000);
-    
-$(document).ready(function() {
-   $("button").get(0).click();  
-});
-   
-  
+    // setTimeout(function () {document.location.href = "indication2.html";}, 50000);
+    $(document).ready(function () {
+        $("button").get(0).click();
+    });
 </script>
+
+</body>
 </html> 
