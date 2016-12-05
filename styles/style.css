@@ -1,6 +1,7 @@
 html {
     width: 320px;
     height: 568px;
+    overflow: hidden;
 }
 
 body {
@@ -104,19 +105,19 @@ svg {
 #coallinetitre {
 
     position: absolute;
-font-family: 'Bebas', sans-serif;
-font-size: 65px;
-color: white;
-top: 36px;
-width: 200px;
-z-index: 2;
-left: 50%;
-margin-left: -35%;
-text-align: center;
-line-height: 42px;
-text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
--webkit-animation: fadeUpIn 10s;
-line-height: 90%;
+    font-family: 'Bebas', sans-serif;
+    font-size: 65px;
+    color: white;
+    top: 36px;
+    width: 200px;
+    z-index: 2;
+    left: 50%;
+    margin-left: -35%;
+    text-align: center;
+    line-height: 42px;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+    -webkit-animation: fadeUpIn 10s;
+    line-height: 90%;
 
 }
 
@@ -135,7 +136,7 @@ line-height: 90%;
     font-size: 40px;
     margin-left: 10px;
     line-height: 14px;
-    text-align: center; 
+    text-align: center;
 }
 
 #regle {
@@ -164,7 +165,7 @@ line-height: 90%;
     border-bottom: 3px ridge;
     top: 0px;
     color: black;
-    right: -220px;
+    left: 220px;
     position: absolute;
     -webkit-animation: anim 2s 500ms normal ease-out forwards;
     animation: anim 2s 500ms normal ease-out forwards;
@@ -223,13 +224,17 @@ line-height: 90%;
     margin-top: 8%;
 }
 
-
 video#bgvid {
-  position: fixed; right: 0; bottom: 0;
-  min-width: 100%; min-height: 100%;
-  width: auto; height: auto; z-index: -100;
-  background: url(polina.jpg) no-repeat;
-  background-size: cover;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
 }
 
 /* FIN PAGE AFFICHAGE CHARBON */
@@ -357,6 +362,12 @@ li[class*="twitter"] {
     padding: 12px 0;
 }
 
- 
+button {
+    visibility: hidden;
+}
 
-button { visibility: hidden;}
+.sensors {
+    position: absolute;
+    height: 0;
+    color: #BBB;
+}
