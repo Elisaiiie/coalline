@@ -163,12 +163,19 @@ svg {
 
 .trait2 {
     border-bottom: 3px ridge;
-    top: 0px;
+    top: 350px;
     color: black;
+<<<<<<< HEAD
     left: 220px;
     position: relative;
     -webkit-animation: anim2 2s 500ms normal ease-out forwards;
     animation: anim2 2s 500ms normal ease-out forwards;
+=======
+    left: 212px;
+    position: absolute;
+    -webkit-animation: anim 2s 500ms normal ease-out forwards;
+    animation: anim 2s 500ms normal ease-out forwards;
+>>>>>>> origin/master
 }
 
 @-webkit-keyframes anim {
