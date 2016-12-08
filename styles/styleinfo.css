@@ -5,7 +5,7 @@ html {
 
 body {
     background-color: #e6e6e6;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto-Regular';
 }
 
 @font-face {
@@ -14,7 +14,17 @@ body {
     src: url("../font/bebasneue.woff2");
     src: url("../font/bebasneue.otf");
     src: url("../font/bebasneue.ttf");
+   
+    font-family: 'Roboto-Regular';
+  src: url('../font/Roboto-Regular.woff2') format('woff2'),
+       url('../font/Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
+
+
+  
+
 
 /* PAGE ACCUEIL */
 .application {
