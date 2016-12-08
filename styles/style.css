@@ -166,9 +166,9 @@ svg {
     top: 0px;
     color: black;
     left: 220px;
-    position: absolute;
-    -webkit-animation: anim 2s 500ms normal ease-out forwards;
-    animation: anim 2s 500ms normal ease-out forwards;
+    position: relative;
+    -webkit-animation: anim2 2s 500ms normal ease-out forwards;
+    animation: anim2 2s 500ms normal ease-out forwards;
 }
 
 @-webkit-keyframes anim {
@@ -180,12 +180,12 @@ svg {
     }
 }
 
-@keyframes anim {
-    0% {
-        width: 0px;
-    }
+@keyframes anim2 {
     100% {
         width: 100px;
+    }
+    0% {
+        width:0px;
     }
 }
 
