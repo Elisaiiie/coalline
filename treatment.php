@@ -1,35 +1,27 @@
 <?php
 
 
-if ($_GET['action'] == 'getCurrentSensor') {
-    echo json_encode( getCurrentSensor() );
+if ($_GET['action'] == 'GPIOControl') {
+    echo json_encode( GPIOControl( $_GET['pin'], $_GET['state'] ) );
 }
 
 
-function connectDB()
+/**
+ * Envoi une commande 1|0 à une connexion GPIO
+ *
+ * @param $pin
+ * @param $state
+ * @return string
+ */
+function GPIOControl( $pin, $state )
 {
 
-    $dbHost = '192.168.0.10';
-    $dbUser = 'user';
-    $dbPass = 'coalline';
-    $dbName = 'coalline';
+    $pin = intval( $pin );
+    $state = intval( $state );
 
+    exec( "gpio mode $pin output" );
+    exec( "gpio write $pin $state" );
+    $val = exec( "gpio read $pin 2>&1" );
 
-    $mysqli = new mysqli( $dbHost, $dbUser, $dbPass, $dbName );
-    if ($mysqli->connect_errno) {
-        echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
-    }
-
-    return $mysqli;
-}
-
-
-function getCurrentSensor()
-{
-    $mysqli = connectDB();
-
-    $res = $mysqli->query( "SELECT `current` FROM `sensor` WHERE `id` = '1' LIMIT 0,1" );
-    $row = $res->fetch_assoc();
-
-    return $row['current'];
+    return $val;
 }

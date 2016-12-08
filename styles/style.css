@@ -370,4 +370,20 @@ button {
     position: absolute;
     height: 0;
     color: #BBB;
+    bottom: 20px;
+    right: 4px;
+}
+
+.sensors span {
+    font-family: monospace;
+    text-transform: lowercase;
+    cursor: pointer;
+}
+
+.sensors span.sensor_1,
+.sensors span.sensor_2,
+.sensors span.sensor_3,
+.sensors span.projector {
+    background-color: #666;
+    color: #e6e6e6;
 }
