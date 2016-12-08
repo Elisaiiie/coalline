@@ -48,9 +48,41 @@
         }).done(function (json) {
             $('.sensors .sensor_' + json.sensor).text(json.current);
             if (json.current == 1) {
-
-                setTimeout(function(){$('video').get(0).play();},2000)
+                switchOnVideoprojector();
+                setTimeout(function () {
+                    $('video').get(0).play();
+                }, 2000)
             }
+        });
+    }
+
+
+    /**
+     * Active le vidéoprojecteur
+     */
+    function switchOnVideoprojector() {
+
+        $.getJSON('../treatment.php', {
+            action: 'GPIOControl',
+            pin: 1,
+            state: 1
+        }).done(function (json) {
+            $('.projector').text(json);
+        });
+    }
+
+
+    /**
+     * Désactive le vidéoprojecteur
+     */
+    function switchOffVideoprojector() {
+
+        $.getJSON('../treatment.php', {
+            action: 'GPIOControl',
+            pin: 1,
+            state: 0
+        }).done(function (json) {
+            $('.projector').text(json);
         });
     }
 
