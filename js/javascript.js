@@ -32,7 +32,7 @@ function getSensors(currentUrl) {
         //
     }).done(function (json) {
         $('.sensors .sensor_' + json.sensor).text(json.current);
-        if (json.current == 1) {
+        if (json.current == 0) {
             if (currentUrl == "regles.html") {
                 document.location = "charbon.html";
             }
